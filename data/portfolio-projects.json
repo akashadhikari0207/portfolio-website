@@ -1,0 +1,79 @@
+{
+    "projects": [
+      {
+        "category": "Food Delivery Solutions",
+        "title": "CC21 – Australian Food Delivery Platform",
+        "shortDescription": "A comprehensive online platform similar to Zomato, featuring robust order monitoring and rider broadcasting systems.",
+        "longDescription": "CC21 is a full-stack project that replicates the functionality of leading food delivery platforms. I developed the web app, customer mobile app, and backend services using C#, .NET Core, and ReactJS. Key integrations include Google Maps API for location tracking and sophisticated background job processing to handle complex mathematical computations. The project’s standout features are its robust order monitoring dashboard, an intelligent rider broadcasting system that selects the best available delivery partner, and a dynamic referral group functionality—all built under high-pressure conditions to ensure reliability and scalability.",
+        "client": "CC21 Australia",
+        "projectDate": "01 Jan, 2023",
+        "projectUrl": "https://cc21.com.au",
+        "role": "Full-Stack Developer",
+        "projectImages": [
+          "/assets/img/portfolio/cc21-1.png",
+          "/assets/img/portfolio/cc21-2.png",
+          "/assets/img/portfolio/cc21-3.png"
+        ]
+      },
+      {
+        "category": "Food Delivery Solutions",
+        "title": "CC21 Customer Mobile App",
+        "shortDescription": "A dedicated mobile application that enhances the customer ordering experience with intuitive navigation and real-time updates.",
+        "longDescription": "The CC21 Customer Mobile App is designed to complement the main food delivery platform by offering a seamless, mobile-first ordering experience. Built with Flutter and Dart, the app provides an engaging and intuitive interface that simplifies order placement and tracking. It integrates tightly with the backend services of CC21, ensuring that users receive real-time notifications and updates about their orders. Key features include a captivating splash screen, an easy-to-use order interface, and dynamic tracking capabilities that enhance customer satisfaction and drive repeat engagement.",
+        "client": "CC21 Australia",
+        "projectDate": "01 August, 2023",
+        "projectUrl": "https://play.google.com/store/apps/details?id=com.netspeq.cc21_customer",
+        "role": "Flutter Developer",
+        "projectImages": ["/assets/img/portfolio/cc21_mobile-1.png"]
+      },
+      {
+        "category": "Project Management Tools",
+        "title": "Zodobay – Project Management Platform",
+        "shortDescription": "An in-house tool designed for subscription-based project management, streamlining user account monitoring and subscription tracking.",
+        "longDescription": "Zodobay is a project management platform created to simplify subscription-based project oversight. As the lead on front-end development, I utilized ReactJS, HTML, and CSS to build a user-centric interface that allows for seamless project tracking and user account monitoring. The platform integrates with various APIs to ensure real-time updates and smooth navigation, making it easier for clients to manage subscriptions and monitor ongoing projects efficiently. This solution significantly enhanced internal workflows and client satisfaction by centralizing key project data in one accessible dashboard.",
+        "client": null,
+        "projectDate": "10 Jan, November, 2025",
+        "projectUrl": "https://zodobay.com/",
+        "role": "Front-End Developer",
+        "projectImages": ["/assets/img/portfolio/zodobay-1.png"]
+      },
+      {
+        "category": "Hospitality & Booking Solutions",
+        "title": "dovaanhomestay.com",
+        "shortDescription": "A dynamic hotel booking e-commerce website with secure payment integration and a responsive design.",
+        "longDescription": "dovaanhomestay.com is an e-commerce website developed to facilitate hassle-free hotel bookings. Using WordPress, PHP, HTML, CSS, and JavaScript, I crafted a responsive and visually appealing interface that guides users through an effortless reservation process. Key features include a modern homepage banner, an interactive booking interface, and secure payment integration. This platform emphasizes usability and security, ensuring that users can make reservations confidently and efficiently while enjoying a seamless digital experience.",
+        "client": "Dovaan Homestay",
+        "projectDate": "01 April, 2023",
+        "projectUrl": "https://dovaanhomestay.com",
+        "role": "Web Developer",
+        "projectImages": [
+          "/assets/img/portfolio/dovaan-1.png",
+          "/assets/img/portfolio/dovaan-2.png",
+          "/assets/img/portfolio/dovaan-3.png"
+        ]
+      },
+      {
+        "category": "Hospitality & Booking Solutions",
+        "title": "rahaulhomestay.in",
+        "shortDescription": "A landing and booking site for Rahul Home Stay, featuring interactive booking forms and real-time availability.",
+        "longDescription": "rahaulhomestay.in is a purpose-built website for a hospitality business, designed to boost online reservations through a modern, engaging interface. Developed using HTML, CSS, Bootstrap, JavaScript, and PHP, the site offers a vibrant landing page, intuitive booking forms, and real-time availability updates. It’s optimized for SEO and provides an immersive user experience, making it easy for visitors to navigate, book rooms, and interact with the platform. This project underscores my capability to create high-impact, user-friendly solutions for the hospitality sector.",
+        "client": "Rahul Home Stay",
+        "projectDate": "01 June, 2023",
+        "projectUrl": "https://rahaulhomestay.in",
+        "role": "Web Developer",
+        "projectImages": ["/assets/img/placeholder-image.jpg"]
+      },
+      {
+        "category": "Education & Training Platforms",
+        "title": "WCTC – Online Training Portal",
+        "shortDescription": "A web-based training and certification platform for students and professionals.",
+        "longDescription": "WCTC is a comprehensive e-learning portal that offers online courses, training modules, and certification programs for students and professionals. Developed using ASP.NET Core, C#, and ReactJS, this platform provides a seamless user experience with interactive lessons, real-time progress tracking, and automated certification upon course completion. The system integrates payment gateways for course enrollments and features an admin dashboard for managing courses, instructors, and student progress. With a focus on scalability and ease of use, WCTC aims to make quality education accessible online.",
+        "client": "WCTC Academy",
+        "projectDate": "15 March, 2024",
+        "projectUrl": "https://wctc.academy",
+        "role": "Full-Stack Developer",
+        "projectImages": ["/assets/img/placeholder-image.jpg"]
+      }
+    ]
+  }
+  
