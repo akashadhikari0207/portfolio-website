@@ -1,407 +1,871 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+      Akash Adhikari - Full-Stack Web Developer, Hybrid Mobile App Developer &
+      Software Engineer
+    </title>
+    <meta
+      name="description"
+      content="Akash Adhikari is a passionate full-stack web developer and software engineer based in Gangtok, India. With a B.Tech in Computer Engineering and hands-on experience at Netspeq Solutions and 4A’s Tech, he specializes in creating responsive, secure, and scalable web and mobile applications using C#, .NET Core, React, JavaScript, and modern web technologies."
+    />
+    <meta
+      name="keywords"
+      content="Akash Adhikari, Full-Stack Web Developer, Mobile App Developer, Software Engineer, Gangtok, Sikkim, Computer Engineering, C#, .NET Core, React, JavaScript, HTML5, CSS3, API Integration, Web Security, Responsive Design, Netspeq Solutions, Freelance Developer, Government of India"
+    />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Akash Adhikari - Full-Stack Web Developer, Hybrid Mobile App Developer & Software Engineer</title>
-  <meta name="description" content="Akash Adhikari is a passionate full-stack web developer and software engineer based in Gangtok, India. With a B.Tech in Computer Engineering and hands-on experience at Netspeq Solutions and 4A’s Tech, he specializes in creating responsive, secure, and scalable web and mobile applications using C#, .NET Core, React, JavaScript, and modern web technologies." />
-  <meta name="keywords" content="Akash Adhikari, Full-Stack Web Developer, Mobile App Developer, Software Engineer, Gangtok, Sikkim, Computer Engineering, C#, .NET Core, React, JavaScript, HTML5, CSS3, API Integration, Web Security, Responsive Design, Netspeq Solutions, Freelance Developer, Government of India" />
-  
+    <!-- Favicons -->
+    <link href="assets/img/favicon.ico" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <body class="index-page">
+    <header id="header" class="header dark-background d-flex flex-column">
+      <i class="header-toggle d-xl-none bi bi-list"></i>
 
-</head>
-
-<body class="index-page">
-
-  <header id="header" class="header dark-background d-flex flex-column">
-    <i class="header-toggle d-xl-none bi bi-list"></i>
-
-    <div class="profile-img">
-      <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
-    </div>
-
-    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-      <!-- Uncomment the line below if you also wish to use an image logo -->
-      <!-- <img src="assets/img/logo.png" alt=""> -->
-      <h1 class="sitename">Akash Adhikari</h1>
-    </a>
-
-    <div class="social-links text-center">
-      <a target="_blank" href="https://www.linkedin.com/in/akashadhikari0207/" class="linkedin"><i class="bi bi-linkedin"></i></a>
-      <a target="_blank" href="https://github.com/akashadhikari0207" class="github"><i class="bi bi-github"></i></a>
-      <a target="_blank" href="https://www.facebook.com/thecoderakash" class="facebook"><i class="bi bi-facebook"></i></a>
-      <a target="_blank" href="https://join.skype.com/invite/wG9nMq4GI3rU" class="google-plus"><i class="bi bi-skype"></i></a>
-    </div>
-
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="/#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
-        <li><a href="/#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="/#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-        <li><a href="/#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-        <li><a href="/#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>       
-        <li><a href="/#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
-      </ul>
-    </nav>
-
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h2>Akash Adhikari</h2>
-        <p>I'm <span class="typed" data-typed-items="Full Stack Web Developer, Hybrid Mobile App Developer, Software Engineer">Full Stack Web Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      <div class="profile-img">
+        <img
+          src="assets/img/my-profile-img.jpg"
+          alt=""
+          class="img-fluid rounded-circle"
+        />
       </div>
 
-    </section><!-- /Hero Section -->
+      <a
+        href="index.html"
+        class="logo d-flex align-items-center justify-content-center"
+      >
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Akash Adhikari</h1>
+      </a>
 
-    <!-- About Section -->
-    <section id="about" class="about section">
+      <div class="social-links text-center">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/akashadhikari0207/"
+          class="linkedin"
+          ><i class="bi bi-linkedin"></i
+        ></a>
+        <a
+          target="_blank"
+          href="https://github.com/akashadhikari0207"
+          class="github"
+          ><i class="bi bi-github"></i
+        ></a>
+        <a
+          target="_blank"
+          href="https://www.facebook.com/thecoderakash"
+          class="facebook"
+          ><i class="bi bi-facebook"></i
+        ></a>
+        <a
+          target="_blank"
+          href="https://join.skype.com/invite/wG9nMq4GI3rU"
+          class="google-plus"
+          ><i class="bi bi-skype"></i
+        ></a>
+      </div>
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
-        <p>
-          I’m Akash Adhikari, a passionate full-stack developer from Gangtok, Sikkim, India with a strong drive for technology and innovation. With hands-on experience in designing and developing web applications, I specialize in creating dynamic, responsive, and secure solutions across both front-end and back-end technologies. I thrive in transforming complex ideas into functional web and mobile applications, leveraging diverse technologies and frameworks. My expertise extends to seamless deployment in both Windows and Linux VPS environments, ensuring reliability and optimal performance at every stage of the software development lifecycle. I am continually evolving my skill set to stay ahead of new advancements and challenges in the tech industry.
-        </p>
-      </div><!-- End Section Title -->
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li>
+            <a href="/#hero" class="active"
+              ><i class="bi bi-house navicon"></i>Home</a
+            >
+          </li>
+          <li>
+            <a href="/#about"><i class="bi bi-person navicon"></i> About</a>
+          </li>
+          <li>
+            <a href="/#resume"
+              ><i class="bi bi-file-earmark-text navicon"></i> Resume</a
+            >
+          </li>
+          <li>
+            <a href="/#portfolio"
+              ><i class="bi bi-images navicon"></i> Portfolio</a
+            >
+          </li>
+          <li>
+            <a href="/#services"
+              ><i class="bi bi-hdd-stack navicon"></i> Services</a
+            >
+          </li>
+          <li>
+            <a href="/#contact"
+              ><i class="bi bi-envelope navicon"></i> Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section dark-background">
+        <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="" />
 
-        <div class="row gy-4 justify-content-center">
-          <div class="col-lg-4">
-            <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <h2>Akash Adhikari</h2>
+          <p>
+            I'm
+            <span
+              class="typed"
+              data-typed-items="Full Stack Web Developer, Hybrid Mobile App Developer, Software Engineer"
+              >Full Stack Web Developer</span
+            ><span
+              class="typed-cursor typed-cursor--blink"
+              aria-hidden="true"
+            ></span
+            ><span
+              class="typed-cursor typed-cursor--blink"
+              aria-hidden="true"
+            ></span>
+          </p>
+        </div>
+      </section>
+      <!-- /Hero Section -->
+
+      <!-- About Section -->
+      <section id="about" class="about section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>About</h2>
+          <p>
+            I’m Akash Adhikari, a passionate full-stack developer from Gangtok,
+            Sikkim, India with a strong drive for technology and innovation.
+            With hands-on experience in designing and developing web
+            applications, I specialize in creating dynamic, responsive, and
+            secure solutions across both front-end and back-end technologies. I
+            thrive in transforming complex ideas into functional web and mobile
+            applications, leveraging diverse technologies and frameworks. My
+            expertise extends to seamless deployment in both Windows and Linux
+            VPS environments, ensuring reliability and optimal performance at
+            every stage of the software development lifecycle. I am continually
+            evolving my skill set to stay ahead of new advancements and
+            challenges in the tech industry.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4 justify-content-center">
+            <div class="col-lg-4">
+              <img
+                src="assets/img/my-profile-img.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <div class="col-lg-8 content">
+              <h2>
+                Full-Stack Web Developer, Hybrid Mobile App Developer & Software
+                Engineer.
+              </h2>
+              <p class="fst-italic py-3">
+                Graduate Computer Engineer with strong problem‐solving skills, a
+                passion for coding, and extensive experience in both front‐end
+                and back‐end development. Dedicated to building robust,
+                scalable, and secure web applications while continuously
+                adapting to emerging technologies.
+              </p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Birthday:</strong> <span>02 July 2000</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Website:</strong> <span>www.example.com</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Linkedin:</strong> <span>akashadhikari0207</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Degree:</strong> <span>BTech</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Email:</strong>
+                      <span>akashadhikari0207@gmail.com</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>City:</strong> <span>Gangtok, Sikkim, India</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="py-3 d-flex align-items-center">
+                <a
+                  href="https://drive.google.com/file/d/1kExjX84RLFLxSNBEP1yTxOtrOAJVTfaa/view?usp=sharing"
+                  class="btn-primary-theme me-2"
+                  target="_blank"
+                  >Download Resume</a
+                >
+                <a href="/#contact" class="btn-primary-theme-outline"
+                  >Contact Me</a
+                >
+              </div>
+            </div>
           </div>
-          <div class="col-lg-8 content">
-            <h2>Full-Stack Web Developer, Hybrid Mobile App Developer & Software Engineer.</h2>
-            <p class="fst-italic py-3">
-              Graduate Computer Engineer with strong problem‐solving skills, a passion for coding, and extensive experience in both front‐end and back‐end development. Dedicated to building robust, scalable, and secure web applications while continuously adapting to emerging technologies.
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
+        </div>
+      </section>
+      <!-- /About Section -->
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills section light-background">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Skills</h2>
+          <p>
+            Explore my technical toolkit—from modern front-end frameworks and
+            design tools to robust back-end languages and database management.
+            These skills empower me to create scalable, secure, and engaging
+            digital solutions.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row skills-content skills-animation content-box-theme">
+            <div class="col-lg-6">
+              <ul>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <strong>Languages:</strong>
+                  <span>C#, JavaScript, Dart, HTML5, CSS3, SQL.</span>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <strong>Database Management:</strong>
+                  <span>MS SQL Server, MySQL, MongoDB (NoSQL).</span>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <strong>Development Practices:</strong>
+                  <span
+                    >Full-stack web application development, hybrid mobile app
+                    development, API design & documentation (Swagger, Postman),
+                    code optimization, SEO-focused development.</span
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <strong>Frameworks:</strong>
+                  <span
+                    >.NET Core, MVC, ReactJS, jQuery, Flutter, Tailwind CSS,
+                    Bootstrap 5.</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <strong>Deployment & Tools:</strong>
+                  <span
+                    >Windows/Linux VPS deployment (IIS, Apache, Nginx), Git
+                    version control, FileZilla, Linux terminal commands.</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <strong>Additional Skills:</strong>
+                  <span
+                    >Web security audits, background job scheduling, integration
+                    of third-party APIs (Google Maps, Firebase, SMS gateways),
+                    technical adaptability, problem-solving.</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Skills Section -->
+
+      <!-- Resume Section -->
+      <section id="resume" class="resume section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Resume</h2>
+          <p>
+            View my resume for a concise snapshot of my career achievements,
+            work experience, and technical expertise as a full-stack developer.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="resume-title">Sumary</h3>
+
+              <div class="resume-item pb-0">
+                <h4>Akash Adhikari</h4>
+                <p>
+                  <em>
+                    Graduate Computer Engineer with strong problem‐solving
+                    skills, a passion for coding, and extensive experience in
+                    both front‐end and back‐end development. Dedicated to
+                    building robust, scalable, and secure web applications while
+                    continuously adapting to emerging technologies.
+                  </em>
+                </p>
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>02 July 2000</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Linkedin:</strong> <span>akashadhikari0207</span></li>
+                  <li>Gangtok, Sikkim, India</li>
+                  <li>akashadhikari0207@gmail.com</li>
                 </ul>
               </div>
-              <div class="col-lg-6">
-                <ul>                  
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BTech</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>akashadhikari0207@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Gangtok, Sikkim, India</span></li>
+              <!-- Edn Resume Item -->
+
+              <h3 class="resume-title">Education</h3>
+              <div class="resume-item">
+                <h4>Bachelor of Technology (Computer Engineering)</h4>
+                <h5>2019 - 2022 | CGPA: 9.55/10</h5>
+                <p>
+                  <em
+                    >Sikkim Institute of Science and Technology, Sikkim
+                    University</em
+                  >
+                </p>
+                <p>
+                  A rigorous undergraduate program that built a strong
+                  foundation in software development, problem-solving, and
+                  modern computing technologies.
+                </p>
+              </div>
+              <!-- Edn Resume Item -->
+
+              <div class="resume-item">
+                <h4>Diploma in Computer Science and Technology</h4>
+                <h5>2016 - 2019 | CGPA: 8.75/10</h5>
+                <p>
+                  <em
+                    >Centre for Computers and Communication Technology, State
+                    Board of Technical Education</em
+                  >
+                </p>
+                <p>
+                  An intensive course that equipped me with essential
+                  programming skills and technical know-how, laying the
+                  groundwork for my development career.
+                </p>
+              </div>
+              <!-- Edn Resume Item -->
+
+              <div class="resume-item">
+                <h4>Class 10</h4>
+                <h5>2015 - 2016 | CGPA: 7.6/10</h5>
+                <p>
+                  <em
+                    >Govt. Senior Secondary School Lingee, Central Board of
+                    Secondary Education</em
+                  >
+                </p>
+                <p>
+                  A formative academic stage that sparked my early passion for
+                  technology and established a solid base for future learning.
+                </p>
+              </div>
+              <!-- Edn Resume Item -->
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <h3 class="resume-title">Professional Experience</h3>
+              <div class="resume-item">
+                <h4>Software Developer</h4>
+                <h5>2022 - Present</h5>
+                <p><em>Netspeq Solutions, Gangtok, Sikkim, India</em></p>
+                <ul>
+                  <li>
+                    Developed and deployed multiple responsive web applications
+                    as a full-stack developer, handling everything from
+                    front-end design to back-end API development and database
+                    management.
+                  </li>
+                  <li>
+                    Led project lifecycle stages—from brainstorming and proposal
+                    to planning, development, deployment, and
+                    maintenance—adhering to industry-standard software
+                    development practices.
+                  </li>
+                  <li>
+                    Integrated payment gateways, third-party APIs (e.g., Google
+                    Maps, Firebase, Google Analytics), and implemented
+                    background job computations to support complex features such
+                    as order monitoring and referral systems.
+                  </li>
                 </ul>
               </div>
-            </div>
-            <div class="py-3 d-flex align-items-center">
-              <a href="https://drive.google.com/file/d/1kExjX84RLFLxSNBEP1yTxOtrOAJVTfaa/view?usp=sharing" class="btn-primary-theme me-2" target="_blank">Download Resume</a>
-              <a href="/#contact" class="btn-primary-theme-outline">Contact Me</a>
+              <!-- Edn Resume Item -->
+
+              <div class="resume-item">
+                <h4>Software Developer Intern</h4>
+                <h5>May 2022 - August 2022</h5>
+                <p><em>Netspeq Solutions, Gangtok, Sikkim, India</em></p>
+                <ul>
+                  <li>
+                    Contributed to the development of an online auction system
+                    as part of a major project requirement.
+                  </li>
+                  <li>
+                    Gained hands-on experience in advanced programming concepts,
+                    web development architectures (2-tier, 3-tier), and
+                    converting conceptual ideas into production-level software.
+                  </li>
+                </ul>
+              </div>
+              <!-- Edn Resume Item -->
+
+              <div class="resume-item">
+                <h4>Freelance Web Developer & Web Hosting Manager</h4>
+                <h5>2020 - 2022</h5>
+                <p><em>4A’s Tech, Sikkim, India</em></p>
+                <ul>
+                  <li>
+                    Created, deployed, and maintained numerous websites using
+                    PHP, HTML, CSS, Bootstrap 5, JavaScript, and WordPress.
+                  </li>
+                  <li>
+                    Managed domain registration, SSL implementation, and
+                    integrated payment gateways, ensuring seamless functionality
+                    and security across shared hosting and VPS environments.
+                  </li>
+                  <li>
+                    Key projects include an online learning management platform
+                    (WCTC.in), a landing and booking site (rahulhomestay.in),
+                    and a hotel booking e-commerce website (dovaanhomestay.com).
+                  </li>
+                </ul>
+              </div>
+              <!-- Edn Resume Item -->
             </div>
           </div>
         </div>
+      </section>
+      <!-- /Resume Section -->
 
-      </div>
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio section light-background">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Portfolio</h2>
+          <p>
+            Browse my portfolio to see a curated selection of projects that
+            demonstrate my full-stack development skills and innovative approach
+            to building scalable, secure, and user-friendly digital solutions.
+          </p>
+        </div>
+        <!-- End Section Title -->
 
-    </section><!-- /About Section -->  
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Skills</h2>
-        <p>Explore my technical toolkit—from modern front-end frameworks and design tools to robust back-end languages and database management. These skills empower me to create scalable, secure, and engaging digital solutions.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row skills-content skills-animation content-box-theme">
-          <div class="col-lg-6">
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <strong>Languages:</strong> <span>C#, JavaScript, Dart, HTML5, CSS3, SQL.</span></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>Database Management:</strong> <span>MS SQL Server, MySQL, MongoDB (NoSQL).</span></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>Development Practices:</strong> <span>Full-stack web application development, hybrid mobile app development, API design & documentation (Swagger, Postman), code optimization, SEO-focused development.</span></li>
+        <div class="container">
+          <div
+            class="isotope-layout"
+            data-default-filter="*"
+            data-layout="masonry"
+            data-sort="original-order"
+          >
+            <ul class="portfolio-filters isotope-filters aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-fds">Food Delivery Solutions</li>
+              <li data-filter=".filter-pmt">Project Management Tools</li>
+              <li data-filter=".filter-hbs">Hospitality & Booking Solutions</li>
+              <li data-filter=".filter-ep">Educational Platforms</li>
+              <li data-filter=".filter-pp">Personal Projects</li>
             </ul>
-          </div>
-          <div class="col-lg-6">
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <strong>Frameworks:</strong> <span>.NET Core, MVC, ReactJS, jQuery, Flutter, Tailwind CSS, Bootstrap 5.</span></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>Deployment & Tools:</strong> <span>Windows/Linux VPS deployment (IIS, Apache, Nginx), Git version control, FileZilla, Linux terminal commands.</span></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>Additional Skills:</strong> <span>Web security audits, background job scheduling, integration of third-party APIs (Google Maps, Firebase, SMS gateways), technical adaptability, problem-solving.</span></li>
-            </ul>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Skills Section -->
-
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
-        <p>
-          View my resume for a concise snapshot of my career achievements, work experience, and technical expertise as a full-stack developer.
-        </p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Sumary</h3>
-
-            <div class="resume-item pb-0">
-              <h4>Akash Adhikari</h4>
-              <p><em>
-                Graduate Computer Engineer with strong problem‐solving skills, a passion for coding, and extensive experience in both front‐end and back‐end development. Dedicated to building robust, scalable, and secure web applications while continuously adapting to emerging technologies.
-              </em></p>
-              <ul>
-                <li>Gangtok, Sikkim, India</li>
-                <li>akashadhikari0207@gmail.com</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Bachelor of Technology (Computer Engineering)</h4>
-              <h5>2019 - 2022 | CGPA: 9.55/10</h5>
-              <p><em>Sikkim Institute of Science and Technology, Sikkim University</em></p>
-              <p>
-                A rigorous undergraduate program that built a strong foundation in software development, problem-solving, and modern computing technologies.
-              </p>
-            </div><!-- Edn Resume Item -->
-
-            <div class="resume-item">
-              <h4>Diploma in Computer Science and Technology</h4>
-              <h5>2016 - 2019 | CGPA: 8.75/10</h5>
-              <p><em>Centre for Computers and Communication Technology, State Board of Technical Education</em></p>
-              <p>
-                An intensive course that equipped me with essential programming skills and technical know-how, laying the groundwork for my development career.
-              </p>
-            </div><!-- Edn Resume Item -->
-            
-            <div class="resume-item">
-              <h4>Class 10</h4>
-              <h5>2015 - 2016 | CGPA: 7.6/10</h5>
-              <p><em>Govt. Senior Secondary School Lingee, Central Board of Secondary Education</em></p>
-              <p>
-                A formative academic stage that sparked my early passion for technology and established a solid base for future learning.
-              </p>
-            </div><!-- Edn Resume Item -->
-
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Software Developer</h4>
-              <h5>2022 - Present</h5>
-              <p><em>Netspeq Solutions, Gangtok, Sikkim, India</em></p>
-              <ul>
-                <li>Developed and deployed multiple responsive web applications as a full-stack developer, handling everything from front-end design to back-end API development and database management.</li>
-                <li>Led project lifecycle stages—from brainstorming and proposal to planning, development, deployment, and maintenance—adhering to industry-standard software development practices.</li>
-                <li>Integrated payment gateways, third-party APIs (e.g., Google Maps, Firebase, Google Analytics), and implemented background job computations to support complex features such as order monitoring and referral systems.</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-            
-            <div class="resume-item">
-              <h4>Software Developer Intern</h4>
-              <h5>May 2022 - August 2022</h5>
-              <p><em>Netspeq Solutions, Gangtok, Sikkim, India</em></p>
-              <ul>
-                <li>Contributed to the development of an online auction system as part of a major project requirement.</li>
-                <li>Gained hands-on experience in advanced programming concepts, web development architectures (2-tier, 3-tier), and converting conceptual ideas into production-level software.</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-           
-            <div class="resume-item">
-              <h4>Freelance Web Developer & Web Hosting Manager</h4>
-              <h5>2020 - 2022</h5>
-              <p><em>4A’s Tech, Sikkim, India</em></p>
-              <ul>
-                <li>Created, deployed, and maintained numerous websites using PHP, HTML, CSS, Bootstrap 5, JavaScript, and WordPress.</li>
-                <li>Managed domain registration, SSL implementation, and integrated payment gateways, ensuring seamless functionality and security across shared hosting and VPS environments.</li>
-                <li>Key projects include an online learning management platform (WCTC.in), a landing and booking site (rahulhomestay.in), and a hotel booking e-commerce website (dovaanhomestay.com).</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Resume Section -->
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>Browse my portfolio to see a curated selection of projects that demonstrate my full-stack development skills and innovative approach to building scalable, secure, and user-friendly digital solutions.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters portfolio-projects-category-container" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row gy-4 isotope-container portfolio-projects-container" data-aos="fade-up" data-aos-delay="200">        
-
-          </div><!-- End Portfolio Container -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-            </div>
-          </div>
-          <!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
-            <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Eiusmod Tempor</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Services Section -->
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-5">
-
-            <div class="info-wrap">
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3>Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+            <!-- End Portfolio Filters -->
+        
+            <div class="row gy-4 isotope-container aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+              
+              <!-- CC21 – Australian Food Delivery Platform -->
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-fds">
+                <div class="portfolio-content h-100">
+                  <img src="/assets/img/portfolio/cc21-1.png" class="img-fluid" alt="CC21 – Australian Food Delivery Platform" />
+                  <div class="portfolio-info">
+                    <h4>CC21 – Australian Food Delivery Platform</h4>
+                    <p>A comprehensive online platform similar to Zomato, featuring robust order monitoring and rider broadcasting systems.</p>
+                    <a href="/assets/img/portfolio/cc21-1.png" title="CC21 – Australian Food Delivery Platform" data-gallery="portfolio-gallery-fds" class="glightbox preview-link">
+                      <i class="bi bi-zoom-in"></i>
+                    </a>
+                  </div>
                 </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                <i class="bi bi-telephone flex-shrink-0"></i>
-                <div>
-                  <h3>Call Us</h3>
-                  <p>+1 5589 55488 55</p>
+              </div>
+        
+              <!-- CC21 Customer Mobile App -->
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-fds">
+                <div class="portfolio-content h-100">
+                  <img src="/assets/img/portfolio/cc21_mobile-1.png" class="img-fluid" alt="CC21 Customer Mobile App" />
+                  <div class="portfolio-info">
+                    <h4>CC21 Customer Mobile App</h4>
+                    <p>A dedicated mobile application that enhances the customer ordering experience with intuitive navigation and real-time updates.</p>
+                    <a href="/assets/img/portfolio/cc21_mobile-1.png" title="CC21 Customer Mobile App" data-gallery="portfolio-gallery-fds" class="glightbox preview-link">
+                      <i class="bi bi-zoom-in"></i>
+                    </a>
+                  </div>
                 </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>Email Us</h3>
-                  <p>info@example.com</p>
+              </div>
+        
+              <!-- Zodobay – Project Management Platform -->
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-pmt">
+                <div class="portfolio-content h-100">
+                  <img src="/assets/img/portfolio/zodobay-1.png" class="img-fluid" alt="Zodobay – Project Management Platform" />
+                  <div class="portfolio-info">
+                    <h4>Zodobay – Project Management Platform</h4>
+                    <p>An in-house tool designed for subscription-based project management, streamlining user account monitoring and subscription tracking.</p>
+                    <a href="/assets/img/portfolio/zodobay-1.png" title="Zodobay – Project Management Platform" data-gallery="portfolio-gallery-pmt" class="glightbox preview-link">
+                      <i class="bi bi-zoom-in"></i>
+                    </a>
+                  </div>
                 </div>
-              </div><!-- End Info Item -->
-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+        
+              <!-- dovaanhomestay.com -->
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-hbs">
+                <div class="portfolio-content h-100">
+                  <img src="/assets/img/portfolio/dovaan-1.png" class="img-fluid" alt="dovaanhomestay.com" />
+                  <div class="portfolio-info">
+                    <h4>dovaanhomestay.com</h4>
+                    <p>A dynamic hotel booking e-commerce website with secure payment integration and a responsive design.</p>
+                    <a href="/assets/img/portfolio/dovaan-1.png" title="dovaanhomestay.com" data-gallery="portfolio-gallery-hbs" class="glightbox preview-link">
+                      <i class="bi bi-zoom-in"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+        
+              <!-- rahaulhomestay.in -->
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-hbs">
+                <div class="portfolio-content h-100">
+                  <img src="/assets/img/placeholder-image.jpg" class="img-fluid" alt="rahaulhomestay.in" />
+                  <div class="portfolio-info">
+                    <h4>rahaulhomestay.in</h4>
+                    <p>A landing and booking site for Rahul Home Stay, featuring interactive booking forms and real-time availability.</p>
+                    <a href="/assets/img/placeholder-image.jpg" title="rahaulhomestay.in" data-gallery="portfolio-gallery-hbs" class="glightbox preview-link">
+                      <i class="bi bi-zoom-in"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+        
+              <!-- WCTC – Online Training Portal -->
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ep">
+                <div class="portfolio-content h-100">
+                  <img src="/assets/img/placeholder-image.jpg" class="img-fluid" alt="WCTC – Online Training Portal" />
+                  <div class="portfolio-info">
+                    <h4>WCTC – Online Training Portal</h4>
+                    <p>A web-based training and certification platform for students and professionals.</p>
+                    <a href="/assets/img/placeholder-image.jpg" title="WCTC – Online Training Portal" data-gallery="portfolio-gallery-ep" class="glightbox preview-link">
+                      <i class="bi bi-zoom-in"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+             
+              <!-- •	Portfolio Website -->
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-pp">
+                <div class="portfolio-content h-100">
+                  <img src="/assets/img/portfolio/personal-1.png" class="img-fluid" alt="My Portfolio Website" />
+                  <div class="portfolio-info">
+                    <h4>My Portfolio Website</h4>
+                    <p>My personal digital showcase that highlights my skills, projects, and professional journey through an engaging, responsive design.</p>
+                    <a href="/assets/img/portfolio/personal-1.png" title="My Portfolio Website" data-gallery="portfolio-gallery-pp" class="glightbox preview-link">
+                      <i class="bi bi-zoom-in"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+        
             </div>
+            <!-- End Portfolio Container -->
           </div>
+        </div>
+        
+      </section>
+      <!-- /Portfolio Section -->
 
-          <div class="col-lg-7">
+      <!-- Services Section -->
+      <section id="services" class="services section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Services</h2>
+          <p>
+            I offer a full suite of digital solutions—from full-stack web and
+            mobile app development to seamless API integrations and secure
+            deployments—all tailored to build scalable, user-centric, and
+            high-performance applications.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-4">
+            <div
+              class="col-lg-4 col-md-6 service-item d-flex"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="icon flex-shrink-0"><i class="bi bi-layers"></i></div>
+              <div>
+                <!-- <h4 class="title"><a href="/service-details-full-stack-web-development.html" class="stretched-link">Full-Stack Web Application Development</a></h4> -->
+                <h4 class="title">
+                  <span class="stretched-link"
+                    >Full-Stack Web Application Development</span
+                  >
+                </h4>
+                <p class="description">
+                  Designing, developing, and deploying responsive and scalable
+                  web apps.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6 service-item d-flex"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="icon flex-shrink-0"><i class="bi bi-phone"></i></div>
+              <div>
+                <!-- <h4 class="title"><a href="/service-details-hybrid-mobile-app-development.html" class="stretched-link">Hybrid Mobile App Development</a></h4> -->
+                <h4 class="title">
+                  <span class="stretched-link"
+                    >Hybrid Mobile App Development</span
+                  >
+                </h4>
+                <p class="description">
+                  Building cross-platform mobile applications with Flutter and
+                  Dart.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6 service-item d-flex"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="icon flex-shrink-0"><i class="bi bi-plug"></i></div>
+              <div>
+                <!-- <h4 class="title"><a href="/service-details-api-development-and-integration.html" class="stretched-link">API Development & Integration</a></h4> -->
+                <h4 class="title">
+                  <span class="stretched-link"
+                    >API Development & Integration</span
+                  >
+                </h4>
+                <p class="description">
+                  Creating secure, efficient APIs and integrating third-party
+                  services (e.g., Google Maps, payment gateways).
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6 service-item d-flex"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="icon flex-shrink-0">
+                <i class="bi bi-database"></i>
+              </div>
+              <div>
+                <!-- <h4 class="title"><a href="/service-details-database-management.html" class="stretched-link">Database Management</a></h4> -->
+                <h4 class="title">
+                  <span class="stretched-link">Database Management</span>
+                </h4>
+                <p class="description">
+                  Designing and optimizing databases using MS SQL Server, MySQL,
+                  and MongoDB.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6 service-item d-flex"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="icon flex-shrink-0"><i class="bi bi-tools"></i></div>
+              <div>
+                <!-- <h4 class="title"><a href="/service-details-deployment-and-maintenance.html" class="stretched-link">Deployment & Maintenance</a></h4> -->
+                <h4 class="title">
+                  <span class="stretched-link">Deployment & Maintenance</span>
+                </h4>
+                <p class="description">
+                  Setting up and managing VPS deployments (both Windows and
+                  Linux), ensuring smooth and secure operations.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6 service-item d-flex"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="icon flex-shrink-0">
+                <i class="bi bi-shield-lock"></i>
+              </div>
+              <div>
+                <!-- <h4 class="title"><a href="/service-details-seo-and-web-security-audits.html" class="stretched-link">SEO & Web Security Audits</a></h4> -->
+                <h4 class="title">
+                  <span class="stretched-link">SEO & Web Security Audits</span>
+                </h4>
+                <p class="description">
+                  Optimizing code for performance, search engine visibility, and
+                  robust security measures.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Services Section -->
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contact</h2>
+          <p>
+            Have a question or project in mind? Reach out to discuss innovative
+            solutions and opportunities to collaborate. I'd love to hear from
+            you!
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-5">
+              <div class="info-wrap">
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <i class="bi bi-envelope flex-shrink-0"></i>
+                  <div>
+                    <h3>Email</h3>
+                    <p>
+                      <a
+                        href="mailto:akashadhikari0207@gmail.com"
+                        target="_blank"
+                        >akashadhikari0207@gmail.com</a
+                      >
+                    </p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <i class="bi bi-linkedin flex-shrink-0"></i>
+                  <div>
+                    <h3>LinkedIn</h3>
+                    <p>
+                      <a
+                        href="https://www.linkedin.com/in/akashadhikari0207/"
+                        target="_blank"
+                        >https://www.linkedin.com/in/akashadhikari0207</a
+                      >
+                    </p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
+                  <i class="bi bi-skype flex-shrink-0"></i>
+                  <div>
+                    <h3>Skype</h3>
+                    <p>
+                      <a
+                        href="https://join.skype.com/invite/wG9nMq4GI3rU"
+                        target="_blank"
+                        >https://join.skype.com/invite/wG9nMq4GI3rU</a
+                      >
+                    </p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
+                  <i class="bi bi-facebook flex-shrink-0"></i>
+                  <div>
+                    <h3>Facebook</h3>
+                    <p>
+                      <a
+                        href="https://www.facebook.com/thecoderakash"
+                        target="_blank"
+                        >https://www.facebook.com/thecoderakash</a
+                      >
+                    </p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+              </div>
+            </div>
+
+            <!-- <div class="col-lg-7">
             <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
               <div class="row gy-4">
 
@@ -435,54 +899,57 @@
 
               </div>
             </form>
-          </div><!-- End Contact Form -->
-
+          </div> -->
+            <!-- End Contact Form -->
+          </div>
         </div>
+      </section>
+      <!-- /Contact Section -->
+    </main>
 
+    <footer id="footer" class="footer position-relative light-background">
+      <div class="container">
+        <div class="copyright text-center">
+          <p>
+            © <span>Copyright</span>
+            <strong class="px-1 sitename">Akash Adhikari</strong>
+            <span>All Rights Reserved</span>
+          </p>
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+        </div>
       </div>
+    </footer>
 
-    </section><!-- /Contact Section -->
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  </main>
+    <!-- Preloader -->
+    <div id="preloader"></div>
 
-  <footer id="footer" class="footer position-relative light-background">
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-    <div class="container">
-      <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Akash Adhikari</strong> <span>All Rights Reserved</span></p>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
-      </div>
-    </div>
-
-  </footer>
-
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

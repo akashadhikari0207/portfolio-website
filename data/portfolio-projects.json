@@ -73,6 +73,17 @@
         "projectUrl": "https://wctc.academy",
         "role": "Full-Stack Developer",
         "projectImages": ["/assets/img/placeholder-image.jpg"]
+      },
+      {
+        "category": "Personal Projects",
+        "title": "Portfolio Website",
+        "shortDescription": "My personal digital showcase that highlights my skills, projects, and professional journey through an engaging, responsive design.",
+        "longDescription": "The Portfolio Website is my personal digital hub, showcasing my journey as a full-stack developer. Built with HTML, CSS, and JavaScript, it features an engaging hero section, interactive project displays, and smooth animations to highlight my technical expertise and design skills. The site is fully responsive, ensuring a seamless experience across all devices, and serves as a dynamic resume that evolves with my career. It reflects my passion for creating user-friendly digital solutions while providing an in-depth look at my work and professional achievements.",
+        "client": "Myself",
+        "projectDate": "10 Jan, 2023",
+        "projectUrl": "https://wctc.academy",
+        "role": "Full-Stack Developer",
+        "projectImages": ["/assets/img/portfolio/personal-1.png"]
       }
     ]
   }

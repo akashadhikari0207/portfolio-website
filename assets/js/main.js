@@ -243,66 +243,63 @@
   document.addEventListener("scroll", navmenuScrollspy);
 
   /* Custom by Akash Start */
-  window.addEventListener("load", function () {
-    fetch("./data/portfolio-projects.json")
-      .then((response) => response.json())
-      .then((data) => {
-        const projectContainer = document.querySelector(
-          ".portfolio-projects-container"
-        );
-        const categoryContainer = document.querySelector(
-          ".portfolio-projects-category-container"
-        );
+  // window.addEventListener("load", function () {
+  //   fetch("./data/portfolio-projects.json")
+  //     .then((response) => response.json())
+  //     .then((data) => {
+  //       const projectContainer = document.querySelector(
+  //         ".portfolio-projects-container"
+  //       );
+  //       const categoryContainer = document.querySelector(
+  //         ".portfolio-projects-category-container"
+  //       );
 
-        const uniqueCategories = new Set();
+  //       const uniqueCategories = new Set();
 
-        data.projects.forEach((project) => {
-          // Extract categories and ensure uniqueness
-          uniqueCategories.add(project.category);
+  //       data.projects.forEach((project) => {
+  //         // Extract categories and ensure uniqueness
+  //         uniqueCategories.add(project.category);
                        
-          // Get the first project image or a default placeholder
-          const projectImage =
-            project.projectImages.length > 0
-              ? project.projectImages[0]
-              : "/assets/img/placeholder-image.jpg";
+  //         // Get the first project image or a default placeholder
+  //         const projectImage =
+  //           project.projectImages.length > 0
+  //             ? project.projectImages[0]
+  //             : "/assets/img/placeholder-image.jpg";
         
-          // Convert category name to class format for filtering
-          const categoryFilter = `filter-${project.category.toLowerCase().replace(/\s+/g, "-")}`;
+  //         // Convert category name to class format for filtering
+  //         const categoryFilter = `filter-${project.category.toLowerCase().replace(/\s+/g, "-")}`;
         
-          // Generate project HTML
-          const projectHtml = `
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item ${categoryFilter}" style="position: absolute; left: 0px; top: 672px;">
-              <div class="portfolio-content h-100">
-                <img src="${projectImage}" class="img-fluid" alt="${project.title}">
-                <div class="portfolio-info">
-                  <h4>${project.title}</h4>
-                  <p>${project.shortDescription}</p>
-                  <a href="${projectImage}" title="${project.title}" data-gallery="portfolio-gallery-app" class="glightbox preview-link">
-                    <i class="bi bi-zoom-in"></i>
-                  </a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link">
-                    <i class="bi bi-link-45deg"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          `;
+  //         // Generate project HTML
+  //         const projectHtml = `
+  //           <div class="col-lg-4 col-md-6 portfolio-item isotope-item ${categoryFilter}" style="position: absolute; left: 0px; top: 672px;">
+  //             <div class="portfolio-content h-100">
+  //               <img src="${projectImage}" class="img-fluid" alt="${project.title}">
+  //               <div class="portfolio-info">
+  //                 <h4>${project.title}</h4>
+  //                 <p>${project.shortDescription}</p>
+  //                 <a href="${projectImage}" title="${project.title}" data-gallery="portfolio-gallery" class="glightbox preview-link">
+  //                   <i class="bi bi-zoom-in"></i>
+  //                 </a>                 
+  //               </div>
+  //             </div>
+  //           </div>
+  //         `;
         
-          projectContainer.innerHTML += projectHtml;
-        });
+  //         projectContainer.innerHTML += projectHtml;
+  //       });
         
 
-        // Generate category filter buttons
-        uniqueCategories.forEach((category) => {
-          const categoryFilterClass = `filter-${category
-            .toLowerCase()
-            .replace(/\s+/g, "-")}`;
-          const categoryHtml = `<li data-filter=".${categoryFilterClass}">${category}</li>`;
-          categoryContainer.innerHTML += categoryHtml;
-        });
-      })
-      .catch((error) => console.error("Error loading projects:", error));
-  });
+  //       // Generate category filter buttons
+  //       uniqueCategories.forEach((category) => {
+  //         const categoryFilterClass = `filter-${category
+  //           .toLowerCase()
+  //           .replace(/\s+/g, "-")}`;
+  //         const categoryHtml = `<li data-filter=".${categoryFilterClass}">${category}</li>`;
+  //         categoryContainer.innerHTML += categoryHtml;
+  //       });
+  //     })
+  //     .catch((error) => console.error("Error loading projects:", error));
+  // });
 
   /* Custom by Akash End */
 })();
