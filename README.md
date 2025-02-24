@@ -40,9 +40,7 @@ This repository contains the source code for my personal portfolio website. The 
 ## Demo
 
 View the live website here:  
-[https://<your-username>.github.io/portfolio-website/](https://<your-username>.github.io/portfolio-website/)
-
-*(Replace `<your-username>` with your GitHub username.)*
+[https://akashadhikari0207.github.io/portfolio-website/](https://akashadhikari0207.github.io/portfolio-website/)
 
 ---
 
